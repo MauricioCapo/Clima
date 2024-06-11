@@ -1,0 +1,129 @@
+html, body {
+    background-color: #d4b111;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #181c25;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+
+#root {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.title, .Titulo {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.ciudad {
+    font-size: 22px;
+    color: #310000;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.ciudades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container, .Buscador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search, .Buscador input {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    color: #282c34;
+    padding: 10px;
+    border-radius: 5px;
+    width: 105%;
+    height: 45px;
+    font-size: 25px;
+    max-width: 600px;
+    box-sizing: border-box;
+    border-radius: 15%  ;
+}
+
+.search::placeholder, .Buscador input::placeholder {
+    color: #bbb;
+}
+
+.datos {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.datos h2, .card-container h1 {
+    color: #030303;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.datos p, p {
+    font-size: 15px;
+    color: #181c25;
+}
+
+.datos header, .datos footer, article>footer, article>header {
+    background-color: white;
+}
+
+.datos header {
+    border-bottom: 1px solid #333;
+}
+
+.datos footer {
+    border-top: 1px solid #333;
+}
+
+.iconos, .icono-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.iconos img, .icono {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    width: 350px;
+    height: 400px;
+}
+
+.card-container {
+    width: 85%;
+    justify-content: center;
+}
+
+.Card {
+    width: 650px;
+}
+
+.Msj {
+    text-align: center;
+    padding-right: 100px;
+}
